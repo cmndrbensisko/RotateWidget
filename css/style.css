@@ -1,0 +1,28 @@
+.jimu-widget-rotate {
+	height:100px;
+	width:100px;
+}
+.jimu-widget-rotatebutton {
+  background-color: #ccc;
+	background-color: rgba(0,0,0,0.2);
+	background-image: url("../images/icon.png");
+	border-radius: 50%;
+	height:100px;
+	width:100px;
+}
+
+.jimu-widget-rotatebutton .HomeButton .home {
+  background-color: rgba(0,0,0,0);
+}
+
+.jimu-widget-rotatebutton.inHome {
+	background-color: #000;
+}
+
+.jimu-widget-rotatebutton .HomeButton .home:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.jimu-widget-rotatebutton.inHome .HomeButton .home {
+	background-color: #000;
+}
